@@ -1,9 +1,11 @@
 export default function Home() {
+  
   return (
     <>
       <div className="flex justify-center flex-col items-center text-white h-[44vh] gap-4">
         <div className="font-bold text-5xl flex items-end gap-3">
           <span>Buy Me a Chai</span>
+          
           <span>
             <img className="w-12" src="/mainCup.webp" alt="" />
           </span>
@@ -94,10 +96,10 @@ export default function Home() {
             height="315"
             src="https://www.youtube.com/embed/Tb1CLQuJOsE?si=eUfPIO5Axm22rkiR"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
       </div>
